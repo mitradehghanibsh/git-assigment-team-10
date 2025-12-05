@@ -1,7 +1,8 @@
 class calculator {
-
+//attributes for the caculator
  int num1,num2 ,addition_result,subtraction_result;
 
+ //method for adding the two numbers
  public int addition(int num1,int num2)
  {
   return num1+num2;
@@ -23,3 +24,4 @@ class calculator {
      return num1*num2 ;
  }
 }
+
