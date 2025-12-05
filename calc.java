@@ -23,6 +23,14 @@ class calculator {          //The class is calculator
  {
      return num1*num2 ;
  }
+ // method for power of a number
+ public double power(double base, double exponent) {
+     return Math.pow(base, exponent);
+ }
+// method for square root of a number
+ public double squareRoot(double number) {
+     return Math.sqrt(number);
+ }
 }
 
 
